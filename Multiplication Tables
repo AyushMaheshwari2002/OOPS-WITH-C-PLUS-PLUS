@@ -1,3 +1,5 @@
+//Write a C++ Program to to print Multiplication Tables.
+
 #include<iostream>
 using namespace std;
 int main()
