@@ -1,0 +1,24 @@
+//C++ Program to write the values stored in variable using array and pointer.
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    int arr[10],i,n;
+    cout <<"Enter the size of the array : ";
+    cin >> n;
+    
+    cout <<"\nEnter the elements in the array : "<<endl;
+    for(i = 0; i < n; i++)
+    {
+        cin >> arr[i];
+    }
+    
+    int* p = arr;
+    for(i = 0; i < n; i++)
+    {
+        cout << "The value of array at address ["<<i<<"]"<<" is "<<*p<<endl;
+        p++;
+    }
+    return 0;
+}
