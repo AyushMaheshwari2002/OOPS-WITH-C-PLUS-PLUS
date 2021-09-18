@@ -1,4 +1,4 @@
-//C++ Program to find Sum of Two Numbers.
+//C++ Program to find Sum of Two Numbers using Functions.
 
 #include <iostream>
 using namespace std;
