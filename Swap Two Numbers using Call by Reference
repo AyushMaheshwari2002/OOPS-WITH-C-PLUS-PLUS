@@ -1,4 +1,4 @@
-//C++ Program to Swap Two Numbers using Call by Reference.
+//C++ Program to Swap Two Numbers using Call by Reference and Pointers.
 
 #include <iostream>
 using namespace std;
