@@ -1,0 +1,28 @@
+//C++ Program to Swap Two Numbers using Call by Reference.
+
+#include <iostream>
+using namespace std;
+
+void swap(int* x, int* y)
+{
+    *x = *x + *y;
+    *y = *x - *y;
+    *x = *x - *y;
+}
+
+int main()
+{
+    int a, b;
+    cout <<"Enter the value of a : ";
+    cin >> a;
+    cout <<"Enter the value of b : ";
+    cin >> b;
+    cout <<"\nBefore Swapping the value of a : "<<a<<endl;
+    cout <<"Before Swapping the value of b : "<<b<<endl;
+    
+    swap(&a, &b);
+    
+    cout <<"\nAfter Swapping the value of a : "<<a<<endl;
+    cout <<"After Swapping the value of a : "<<b<<endl;
+    return 0;
+}
