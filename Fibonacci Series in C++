@@ -1,0 +1,21 @@
+// Write a C++ program to print Fibonacci Series upto N terms, where N is taken from the user.
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n1=0, n2=1, n3, N;
+    cout << "Enter how many digits you want in a series : ";
+    cin >> N;
+    cout <<"\nFibonacci Series is : "<< endl;
+    cout << n1 << endl;
+    cout << n2 << endl;
+    for(int i = 1; i <= N; i++)
+    {
+        n3 = n1 + n2;
+        n1 = n2;
+        n2 = n3;
+        cout << n3<<endl;
+    }
+    return 0;
+}
