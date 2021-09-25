@@ -1,0 +1,17 @@
+// Write a C++ program to find the factorial of the number entered by user.
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int num, i, fact;
+    cout << "Enter the number : ";
+    cin >> num;
+    fact = num;
+    for(i = 1; i < num; i++)
+    {
+        fact = fact * i;
+    }
+    cout << "Factorial value is : "<<fact <<endl;
+    return 0;
+}
