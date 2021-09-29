@@ -1,3 +1,4 @@
+// Nesting of Member Functions.
 // Write a C++ Program to check whether the number is the binary number or not and finds its compliment.
 
 #include <iostream>
@@ -36,7 +37,7 @@ void binary::chk_bin(void)
 
 void binary::ones_compliment(void)
 {
-    chk_bin();
+    chk_bin();  //calling member functions(Nesting) 
     for (int i = 0; i < s.length(); i++)
     {
         if (s.at(i) == '0')
@@ -64,7 +65,7 @@ int main()
 {
     binary b;
     b.read();
-    // b.chk_bin();
+    // b.chk_bin(); 
     b.display();
     b.ones_compliment();
     b.display();
