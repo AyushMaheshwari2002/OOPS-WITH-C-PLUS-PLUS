@@ -2,31 +2,30 @@
 which eventually would add the data values of those two object by adding the objects.*/
 
 #include<iostream>
-#include<string>
 using namespace std;
 
-class B{
-public:
-	int x;
-};
+class abc
+{
+	private:
+		int num;
+	public:
+	abc(int x)
+	{
+		this->num=x;
+	}
 	
-class A{
-public:
-	string s ;
-		string operator + (B b)
-		{
-		 	return  (s + to_string(b.x));
-		}
+	void operator +(abc obj)
+	{
+		cout <<"After adding two objects sum is : ";
+ 		cout<<num+obj.num;
+	}
 };
 
 int main()
 {
-	A a ,c;
-	a.s = "Ayush";
-	B b ;
-	b.x = 2021;
-	
-	cout << "String is : "<< a+b << endl; 
-	return 0;
+	abc obj(30);
+  	abc obj1(50);
+  	obj+obj1;
+  	return 0;
 }
  
