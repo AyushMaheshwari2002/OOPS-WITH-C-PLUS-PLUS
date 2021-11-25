@@ -1,8 +1,13 @@
-/*Class : 		  Provide Inheritance.					                                               |	Structure: 	     Do not Provide Inheritance.
-			          Provide Encapsulation.				                                               |			             Do not Provide Encapsulation.
-			          Members are initilize using constructor.		                                 |			             Members are automatically initized.
-			          Variable can be initilize during decleration.		                             |			             Variable can not be initilize during decleration.
-			          Memory to Object is provided in heap                                         |			             Memory to variable is provided in Stack
+/*WAP to create a College class and Student Structure in C++ in one program. By providing such suitable examples 
+write at least 5 differences between class and struct code your have written above.*/
+
+
+
+/*Class :  Provide Inheritance.					                          |	Structure: 	     Do not Provide Inheritance.
+           Provide Encapsulation.				                          |			     Do not Provide Encapsulation.    
+	   Members are initilize using constructor.	                                  |	                     Members are automatically initized.
+	   Variable can be initilize during decleration.	                          |	                     Variable can not be initilize during decleration.
+	   Memory to Object is provided in heap                                           |		             Memory to variable is provided in Stack
 */
 #include<iostream>
 using namespace std; 
