@@ -4,8 +4,9 @@
     for each of the above and try calling :
     
     1. function of Mammals by an object of Mammal
-    2. 
-    
+    2. function of MarineAnimal by an object of MarineAnimal
+    3. function of BlueWhale by an object of BlueWhale
+    4. function of each of its parent by the object of BlueWhale
 */
 
 #include<iostream>
