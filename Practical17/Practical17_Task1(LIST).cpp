@@ -32,8 +32,8 @@ int main()
         l.push_back(ele);
     }
 
-	// A part of Task
-	cout << "\nPrinting List using Iterator : " <<endl;
+    // A part of Task
+    cout << "\nPrinting List using Iterator : " <<endl;
     printList(l);
 
     // B part of Task
