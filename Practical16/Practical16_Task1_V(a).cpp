@@ -15,6 +15,6 @@ int main()
 	int a ,b;
 	cout << "Enter value of a and b : ";
 	cin >> a >> b;
-	cout << add<int>(a,b);
+	cout << "Sum is : " << add<int>(a,b);
 	return 0;
 }
