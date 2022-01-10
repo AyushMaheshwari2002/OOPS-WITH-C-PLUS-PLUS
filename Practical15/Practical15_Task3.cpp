@@ -5,6 +5,7 @@ c. Ostream: endl, ends, flush
 d. Iomanip: setW, setPrecision
 */
 
+
 #include<iostream>
 #include<iomanip>
 #include<sstream>
@@ -14,22 +15,29 @@ using namespace std ;
  int main()
  {
 	int n =70;
-	cout << hex<< n<< endl;
-	cout << dec<< n<< endl;	
+	cout << hex<< n<< endl;           //hex
+	cout << dec<< n<< endl;	           //dec
 	
 	char  a,b,c;
 	stringstream s("  123");
-	s>>skipws>>a>>b>>c;
+	s>>skipws>>a>>b>>c;             //skipws
 	cout <<a <<b<< c<<endl;
 	
 	stringstream p("  123");
-	p>>noskipws>>a>>b>>c;
+	p>>noskipws>>a>>b>>c;      //noskipws
 	cout <<a <<b<< c<<endl;
 	
 	stringstream t("  this is a string");
 	string line;
-	getline(t >> ws,line);
-	cout << line<<endl;
+	getline(t >> ws,line);           //ws
+	cout << line<<endl;         //endl
+
+    	cout << "b" << ends;    //ends
+
+    	int num = 45;
+    	cout <<endl << setprecision(2) << num << endl;		//setprecission
+  
+    	int i = 18;
+    	cout<<setw(10)<<i;	             //setw
  }
- 
  
